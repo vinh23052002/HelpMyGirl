@@ -40,11 +40,11 @@ namespace NPL.Practice.T01.Problem01
         static void Main(string[] args)
         {
             // Nhap list cac input tu ban phim
-            int n = Validate.ValidateNumber("Input length of array: ");
+            int n = Validate.ValidateNumber("Input length of list: ");
             int[] arr = new int[n];
             for (int i = 0; i < n; i++)
             {
-                // Lay gia tri o phan tu thu n
+                // Lay gia tri cua phan tu thu n
                 arr[i] = Validate.ValidateNumber("Value of index " + i + ": ");
             }
             // Lay ket qua tu ham DrawCircleChart
